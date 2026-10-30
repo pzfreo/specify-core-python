@@ -1,5 +1,11 @@
 # specify-core
 
+> **Superseded.** This Python implementation is retired and the repository is archived.
+> `pip install specify-core` now installs the Rust engine,
+> [specify-core-rust](https://github.com/pzfreo/specify-core-rust), with the same Python API
+> (`from specify_core import api`) and the same `specify-core` command line. It is
+> Apache-2.0. This repository stays readable as the reference the Rust port was checked against.
+
 Interview-driven PMI authoring for STEP parts. specify-core recognises a part's
 features, works out what manufacturing intent is missing (datums, fits, threads,
 positions, finish, the general tolerance and the dimensions that need their own),
